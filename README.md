@@ -7,20 +7,6 @@ Reinforcement Learning Agents: Includes Q-learning and fixed-time agents for tra
 Evaluation Tools: Tools to evaluate the performance of the system.
 Visualization: Graphical representation of training history and evaluation results.
 Frontend Integration: A simple frontend for visualization and interaction.
-Project Structure
-
-traffic_ai/
-├── agent/               # Contains agent implementations (e.g., Q-learning, fixed-time)
-├── environment/         # Traffic environment simulation
-├── evaluation/          # Evaluation scripts and tools
-├── frontend/            # Frontend files for visualization
-├── outputs/             # Stores evaluation summaries and training history
-├── plots/               # Visualization scripts and generated plots
-├── training/            # Training scripts for the agents
-├── fix_offline.py       # Script for offline fixes
-├── main.py              # Entry point for the system
-├── server.py            # Backend server for the system
-└── README.md            # Project documentation
 
 Installation
 Clone the repository:
@@ -32,8 +18,6 @@ pip install -r requirements.txt
 
 Run the server:
 python server.py
-
-Access the frontend in your browser at http://localhost:5000.
 
 Usage
 Training: Use the train.py script in the training/ directory to train the agents.
