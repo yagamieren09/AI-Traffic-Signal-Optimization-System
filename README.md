@@ -21,7 +21,9 @@ python server.py
 
 Usage
 Training: Use the train.py script in the training/ directory to train the agents.
+
 Evaluation: Use the evaluate.py script in the evaluation/ directory to evaluate the system's performance.
+
 Visualization: Use the visualize.py script in the plots/ directory to generate plots.
 
 
